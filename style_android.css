@@ -51,7 +51,7 @@ p{
 
 
 
-a.external::after{
+a.external::before{
  
     
     content: '\00a0\1f517';
