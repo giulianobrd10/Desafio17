@@ -1,23 +1,118 @@
 @charset "UTF-8";
 
+*{
 
-section#cabecalho {
+padding: 0px;
+margin: 0px;
+
+}
+
+
+html, body {
+
+      background-color: darkgrey;
+      min-width: 100vh:
+}
+
+
+header {
 
       color: white;
       background-color: black; 
       height: 300px;
-      width: 100%;
+      width: 100vw;
       text-align: center;
       position: relative;
-      
+      margin: -16px 0px 0px -9px;
+     
 }
 
-section>h1 {
+
+      
+
+header>h1 {
              position: absolute;
              top: 50%;
              left: 50%;
              transform: translate(-50%,-50%);
-             font-size: 4em;
+             padding top: 50px;
+             font-variant: small-caps;
+
+}
+
+header>p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,150%);
+      padding bottom:50px;
+    
+
+}
+
+
+header a, footer a{
+
+      text-decoration:none;
+      color: white;
+      font-weight: bolder;
+
+}
+
+header a:hover, footer a:hover {
+
+text-decoration: underline;
+
+
+}
+
+
+section{
+
+      padding-top: 10vh;
+      padding-bottom: 10vh; 
+      line-height: 2em;
+      padding-left: 30px;
+
+
+}
+
+
+
+section.normal{
+
+      background-color: white;
+      color: black;
+
+}
+
+
+section.imagem{
+
+      background-color: rgb(52, 52, 52);
+      color:white;
+
+
+}
+
+section.imagem p {
+
+       background-color: rgba(0, 0, 0, 0.867);
+       width: 400px;
+
+
+}
+
+
+
+
+
+footer {
+
+text-align: center;
+background-color: black;
+color:white;
+padding: 10px;
 
 
 }
